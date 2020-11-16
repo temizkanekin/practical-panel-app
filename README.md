@@ -1,10 +1,31 @@
-# Getting Started with Create React App
+## Live version on Netlify
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8a784e59-6545-4373-af57-2fc0dbcf92d7/deploy-status)](https://app.netlify.com/sites/loving-lamarr-1d3db8/deploys)
+
+https://loving-lamarr-1d3db8.netlify.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Description about app
+
+- This practical panel app consists of one main view that includes two components as follows:
+    - A Table component that displays the toggling panel
+    - A Manual Override component that interracts with toggling panel
+- Possible exceptions that may occur during manuel overriding are handled.
+- App has responsive UI.
+
+## Technologies/Libraries Used
+
+- [styled components](https://styled-components.com/): styled-components utilises tagged template literals to style your components.
+- No other 3rd party components or libraries are used.
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+#### `yarn install`
+
+Install the node dependencies before run the app.
 
 ### `yarn start`
 
