@@ -1,0 +1,7 @@
+.table {
+    margin: auto;
+}
+tr::before {
+    content: attr(data-content);
+    font-weight: bold;
+}

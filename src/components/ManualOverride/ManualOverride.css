@@ -1,0 +1,20 @@
+.manual-override{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.manual-override-select-coordinates {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.manual-override-select-coordinates :first-child {
+    width: 10%;
+}

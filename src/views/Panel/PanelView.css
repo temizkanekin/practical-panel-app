@@ -1,0 +1,14 @@
+.panelview-root {
+    width:100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+@media only screen and (max-width: 1024px){
+	.panelview-root {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+	}
+}
